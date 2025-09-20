@@ -60,11 +60,4 @@ Objetivo: garantir que diferentes páginas criadas por diferentes pessoas manten
 
 Entenda o projeto. Se trata de um site de um projeto que leva inclusão digital para crianças e adolescentes em estado de vulnerabilidade socia, que moram em casas de acolhimento.
 
-Por enquanto me entregue um codigo HTML, um CSS e outro javascript (em arquivos separados) Apenas para o Header de todo o site, modo que ele possa ser copiado e colado em todos os codigo de todas a paginas:
-
-Como base dos elementos que dem conter e suas disposições, utilze:
-
-"
-
-
-Deixe esse codigo bem definido e em um padrão glassmorfismo somado a um minimalista tecnologico
+Por enquanto me entregue codigos em arquivos separados.
