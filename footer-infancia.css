@@ -1,10 +1,3 @@
-/* Reset e configurações básicas */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Variáveis CSS - Mesmas do header */
 :root {
     --bg-primary: #0F172A;
@@ -337,4 +330,5 @@ body {
 
 .footer-brand {
     animation-delay: 0.3s;
+
 }
