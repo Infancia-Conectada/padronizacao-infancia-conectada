@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projeto social de inclusão digital para crianças e adolescentes em situação de vulnerabilidade">
+    <title>Conecta Futuro - Inclusão Digital</title>
+<link rel="stylesheet" href="galleryTeam.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <!-- Header com informações do projeto -->
+        <header class="header">
+            <div class="glass-card">
+                <h1 class="title">Conecta Futuro</h1>
+                <p class="subtitle">Transformando vidas através da tecnologia</p>
+                <p class="description">
+                    Nosso projeto social promove inclusão digital para crianças e adolescentes em situação de vulnerabilidade, 
+                    moradores de casas de acolhimento. Oferecemos acesso à tecnologia, capacitação profissional e mentoria 
+                    digital para construir autonomia, abrir portas de oportunidade e criar um futuro mais justo e promissor 
+                    para todos.
+                </p>
+            </div>
+        </header>
+
+        <!-- Galeria de fotos -->
+        <section class="gallery-section">
+            <h2 class="section-title">Nossa Jornada em Imagens</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 1">
+                    <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&q=80" alt="Crianças aprendendo programação em computadores">
+                </div>
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 2">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&q=80" alt="Adolescentes em aula de tecnologia">
+                </div>
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 3">
+                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&q=80" alt="Grupo de jovens colaborando em projeto digital">
+                </div>
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 4">
+                    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Menino concentrado usando tablet">
+                </div>
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 5">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80" alt="Workshop de inclusão digital">
+                </div>
+                <div class="gallery-item" tabindex="0" role="button" aria-label="Abrir imagem 6">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=80" alt="Jovens trabalhando em equipe com laptops">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal Lightbox -->
+    <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Visualizador de imagens">
+        <button class="close-btn" id="closeBtn" aria-label="Fechar modal">×</button>
+        <button class="modal-btn prev-btn" id="prevBtn" aria-label="Imagem anterior">‹</button>
+        <div class="modal-content">
+            <img id="modalImg" src="" alt="">
+        </div>
+        <button class="modal-btn next-btn" id="nextBtn" aria-label="Próxima imagem">›</button>
+    </div>
+
+    <script> galleryTeam.js</script>
+</body>
+</html>
